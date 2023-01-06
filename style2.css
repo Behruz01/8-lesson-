@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "rubik";
+  src: url(./fonts/Rubik-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+.div-head {
+  padding: 42px 119px;
+  background: #f6f6f9;
+  align-items: center;
+  width: 1440px;
+}
+.div-img {
+  margin-right: 17px;
+  width: 320px;
+  padding-left: 8px;
+  padding-top: 3px;
+  background-color: white;
+}
+.span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+.blue {
+  color: #285193;
+}
+.gray {
+  color: #7a7a7a;
+  margin-right: 15px;
+}
+.btn-1 {
+  display: flex;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 472px;
+  border: none;
+}
+.nav-1 {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+.ul-navbar {
+  display: flex;
+  gap: 15px;
+  padding: 21px 24px;
+  margin-top: 44px;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+}
+.li-navbar {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+.img-navbar {
+  width: 1200px;
+  margin-top: 18px;
+}
+.main-container {
+  width: 1440px;
+  padding: 20px 119px;
+}
+.str {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  width: 232px;
+  color: #000000;
+  margin-right: 63px;
+}
+main {
+  padding: 0px 119px;
+  width: 1440px;
+  padding: 20px 119px;
+}
+
+.main-ul {
+  background: #f6f6f9;
+  border-radius: 5px;
+  width: 1321px;
+  display: flex;
+  padding-top: 44px;
+  padding-left: 35px;
+  padding-right: 41px;
+  padding-bottom: 41px;
+}
+.main-li {
+  display: flex;
+  border-right: 2px solid red;
+}
+.main-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 161px;
+  color: #db0000;
+  margin-right: 63px;
+}
+.smile {
+  margin-right: 25px;
+}
+.smile1 {
+  margin-left: 30px;
+  margin-right: 18px;
+}
+.tg {
+  margin-right: 5px;
+}
+.section {
+  width: 1200px;
+  display: flex;
+  margin-top: 18px;
+}
+.section2 {
+  width: 1200px;
+  display: flex;
+  margin-top: 18px;
+}
+.section-div {
+  display: flex;
+  gap: 20px;
+}
+.section-div2 {
+  display: flex;
+  gap: 20px;
+}
+.text {
+  width: 380px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+.time {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6b6d97;
+}
+.div-artic {
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  padding: 20px 32px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+}
+.artic-h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.artic-btn {
+  padding: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+  background: linear-gradient(
+    90deg,
+    #fe5c28 0%,
+    rgba(255, 139, 54, 0.9) 88.43%
+  );
+  border-radius: 5px;
+  border: none;
+  margin-left: 224px;
+}
+.ul-item {
+  margin-top: 38px;
+}
+.ul-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-bottom: 13px;
+}
+.cards-div {
+  margin-left: 19px;
+}
+.li-item {
+  display: flex;
+  margin-bottom: 18px;
+}
+.item-h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #202020;
+  width: 507px;
+  margin-bottom: 8px;
+}
+.btn-3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 10px 31px;
+  color: #ffffff;
+  margin-left: 414px;
+  background: #295093;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 38px;
+}
+.item-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #434343;
+  width: 507px;
+  margin-bottom: 12px;
+}
+.item-div {
+  width: 386px;
+  background: #f6f6f9;
+  border-radius: 5px;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+.item-paragraf {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 11px;
+
+  color: #202020;
+  width: 347px;
+}
+hr {
+  width: 346px;
+  height: 4px;
+  background: #e4e4e4;
+  margin-bottom: 18px;
+}
+.times {
+  margin-bottom: 14px;
+}
+.for-flex {
+  display: flex;
+}
+.for-flex2 {
+  margin-top: 46px;
+  margin-left: 36px;
+}
+.reklama {
+  width: 1200px;
+  padding: 37px 19px;
+  display: flex;
+  align-items: center;
+
+  background: #f6f6f9;
+  border-radius: 5px;
+}
+.rec-h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  width: 526px;
+  color: #295093;
+  margin-bottom: 10px;
+}
+.icon1 {
+  margin-left: 63px;
+  margin-right: 19px;
+}
+.footer {
+  background: #295093;
+  padding: 18px 119px;
+}
+.btn4 {
+  padding-top: 11px;
+  padding-left: 9px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  color: #ffffff;
+  background: #133c82;
+  border-radius: 5px;
+}
+.ftr-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+  padding-left: 198px;
+  padding-right: 17px;
+}
+.btn5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #295093;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  border: none;
+}
+.for-btn-div {
+  display: flex;
+  align-items: center;
+}
+.hr2 {
+  background: #133c82;
+  border: none;
+  width: 1200px;
+  margin-top: 20px;
+}
+.foot-div-1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+  width: 365px;
+}
+.ftr-para {
+  margin-bottom: 10px;
+}
+.ftr-ul {
+  width: 163px;
+  margin-right: 115px;
+  margin-left: 111px;
+}
+.ftrdiv {
+  display: flex;
+  align-items: center;
+}
+.ftr-li {
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

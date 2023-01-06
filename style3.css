@@ -1,0 +1,63 @@
+.ul-p {
+  /* display: none; */
+}
+.paragraf-div {
+  margin-top: 36px;
+}
+.ul-img1 {
+  margin-top: 90px;
+}
+.str-p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #202020;
+
+  width: 794px;
+  margin-bottom: 10px;
+}
+.small-p {
+  width: 794px;
+  margin-bottom: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+a {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #28508e;
+}
+.for_a {
+  display: flex;
+  gap: 10px;
+  width: 790px;
+}
+.one {
+  background: #ebebeb;
+
+  width: 794px;
+  height: 2px;
+
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.reklama {
+  width: 1200px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border-radius: 5px;
+}
