@@ -13,7 +13,7 @@ elForm.addEventListener("submit", function (evt) {
   if (image !== "" && title !== "" && discription !== "" && data !== "") {
     newElement.className = "li-item";
     newElement.innerHTML += `
-            <img src='${image}' alt='${title}'/>
+            <img src="https://i.picsum.photos/id/701/200/300.jpg?hmac=gVWdD9Rh_J0iGXpXOJAN7MZpGPrpeHX_M5JwGGvTSsI" alt="${title}"/>
             <div class="cards-div">
               <h3 class="item-h3">
                ${title}
@@ -25,7 +25,7 @@ elForm.addEventListener("submit", function (evt) {
             </div>
           `;
   } else {
-    alert("malumotlarni to'liq to'ldiring");
+    alert("malumotlarni to'liq to'ldiring!!!");
   }
   elCards.appendChild(newElement);
   image.value = "";
