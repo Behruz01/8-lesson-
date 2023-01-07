@@ -9,6 +9,12 @@
   font-weight: 500;
   font-style: normal;
 }
+a {
+  text-decoration: none;
+}
+button:hover {
+  background-color: aqua;
+}
 .div-head {
   padding: 42px 119px;
   background: #f6f6f9;
