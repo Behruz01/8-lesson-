@@ -8,23 +8,24 @@ elForm.addEventListener("submit", function (evt) {
   const discription = evt.target.discription.value;
   const data = evt.target.data.value;
 
-  const newElement = document.createElement("div");
+  const newElement = document.createElement("li");
 
   if (image !== "" && title !== "" && discription !== "" && data !== "") {
     newElement.className = "li-item";
     newElement.innerHTML += `
-    <li class="li-item">
             <img src='${image}' alt='${title}'/>
             <div class="cards-div">
               <h3 class="item-h3">
-               "${title}"
+               ${title}
               </h3>
               <p class="item-p">
-                "${discription}"
-              </p>
-              <p class="time">"${data}"</p>
+                ${discription}
+              </p>  
+              <p class="time">${data}</p>
             </div>
-          </li>`;
+          `;
+  } else {
+    alert("malumotlarni to'liq to'ldiring");
   }
   elCards.appendChild(newElement);
   image.value = "";
@@ -32,4 +33,3 @@ elForm.addEventListener("submit", function (evt) {
   discription.value = "";
   data.value = "";
 });
-console.log(newElement);
