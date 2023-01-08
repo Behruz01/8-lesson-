@@ -68,11 +68,11 @@
     <main class="mains">
       <div class="elements">
         <h1 class="str-h1">Напишите нам</h1>
-        <form action="text">
+        <form id="form">
           <input
             class="elements-inp"
             type="text"
-            name="text"
+            name="name"
             placeholder="Имя"
           />
           <input
@@ -83,14 +83,14 @@
           />
           <input
             class="elements-inp"
-            type="tel"
+            type="number"
             name="tel"
             placeholder="Номер телефона"
           />
           <input
             class="elements-inp"
             type="text"
-            name="text"
+            name="team"
             placeholder="Тема"
           />
           <textarea
@@ -101,7 +101,7 @@
             placeholder="Текст"
           ></textarea>
           <input
-            type="text"
+            type="file"
             name="file"
             placeholder="Прикрепить файл"
             class="small"
@@ -125,10 +125,10 @@
           >
             4 k 7 Z a
           </p>
+          <button class="btn1">Отправить</button>
         </form>
-        <button class="btn1">Отправить</button>
       </div>
-      <article class="man-right">
+      <article id="article" class="man-right">
         <h2 class="naman-h2">NAMANGANLIKLAR24</h2>
         <div class="naman-li">
           <p class="left p">Электронная почта</p>
@@ -149,6 +149,13 @@
           <img src="./image/Group.png" alt="photo" class="icon" />
           <img src="./image/Group(1).png" alt="photo" class="icon" />
         </div>
+        <div id="element">
+          <!-- <h2>name</h2>
+          <a href="#">email</a>
+          <h3>phone number</h3>
+          <p>team</p>
+          <p>text</p> -->
+        </div>
       </article>
     </main>
     <footer>
@@ -159,21 +166,27 @@
             Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых
             последних новостей:
           </h3>
-          <button class="naman-btn2 strh3">
-            <img
-              width="19"
-              height="19"
-              src="./image/Vectortele(7).png"
-              alt="photo"
-              class="telg-img"
-            />
-            Подписатся
-          </button>
+          <form method="post" action="https://t.me/namanganliklar">
+            <button id="telegram" class="naman-btn2 strh3">
+              <img
+                width="19"
+                height="19"
+                src="./image/Vectortele(7).png"
+                alt="photo"
+                class="telg-img"
+              />
+              Подписатся
+            </button>
+          </form>
         </div>
         <hr />
         <div class="cont">
           <div class="ftr-div">
-            <p class="ftr">О сайте</p>
+            <p class="ftr">
+              <a href="https://namanganliklar24.uz/page/informaciya-o-sajte"
+                >О сайте</a
+              >
+            </p>
             <h5 class="ftr paragraf">
               Воспроизводство, копирование, тиражирование, распространение и
               иное использование информации с сайта «NAMANGANLIKLAR24.UZ»
@@ -197,5 +210,6 @@
         </div>
       </div>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>

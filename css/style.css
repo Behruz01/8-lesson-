@@ -9,6 +9,12 @@
   padding: 0;
   background: border-box;
 }
+a {
+  text-decoration: none;
+}
+button:hover {
+  background-color: darkblue;
+}
 header {
   width: 1440px;
   padding: 40px 120px;
@@ -152,6 +158,8 @@ textarea {
   line-height: 21px;
 
   color: #ffffff;
+
+  display: block;
 }
 .btn1-p {
   font-family: "Rubik";
